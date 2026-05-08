@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>CineFlix - Your Ultimate Movie Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="logo.png" alt="cineflix logo" class="logo">
+        </div>
+        <div>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#indian-movies">Indian Movies</a></li>
+                <li><a href="#series">Series</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="#movies"><button class="cta-btn2">Try it Free</button></a>
+            <button class="hamburger" id="menuBtn" type="button" title="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-body">
+
+        <section id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 >Welcome to <span class="hero-heading">CineFlixs</span></h1>
+                    <p>Your ultimate destination for movies and series. Explore our vast collection and enjoy <br>your favorite content anytime, anywhere.</p>
+                    <a href="#watch"><button class="cta-btn">▶ Watch Now</button></a>
+                </div>
+                <div class="hero-image">
+                    <img class="img" src="heroimage.jpg" alt="CineFlix Hero Image">
+                </div>
+            </div>
+        </section>
+        <section id="search-bar">
+            <div class="search-button">
+                <input class="search-input" type="text" placeholder="Search your favorite movies...">
+                <button class="search-btn" >Search</button>
+            </div>
+        </section>
+        <section id="watch">
+            <div class="genre">
+                <h2 class="category-heading">Browse By Genre </h2>
+                <!-- <hr class="category-separator"> -->
+               <ul class="genre-list">
+                    <li><button class="category-btn active" data-genre="all">All</button></li>
+                    <li><button class="category-btn" data-genre="action">Action</button></li>
+                    <li><button class="category-btn" data-genre="comedy">Comedy</button></li>
+                    <li><button class="category-btn" data-genre="drama">Drama</button></li>
+                    <li><button class="category-btn" data-genre="horror">Horror</button></li>
+                    <li><button class="category-btn" data-genre="scifi">Sci-Fi</button></li>
+                    <li><button class="category-btn" data-genre="romance">Romance</button></li>
+                    <li><button class="category-btn" data-genre="adventure">Adventure</button></li>
+                    <li><button class="category-btn" data-genre="thriller">Thriller</button></li>
+                    <li><button class="category-btn" data-genre="animation">Animation</button></li>
+                </ul>
+            </div>
+            <div  id="movies">
+
+            </div>
+       
+        <section class="series-section">
+            <h2 class="series-heading">🇮🇳 Indian Movies</h2>
+             <!-- <hr class="indian-separator"> -->
+            <div id="indian-movies">
+
+            </div>
+        </section>    
+        </section>
+        
+        <section class="series-section">
+            <h2 class="series-heading">Web Series</h2>
+            <!-- <hr class="series-separator"> -->
+            <div  id="series">
+
+            </div>
+        </section>
+        
+    </main>    
+
+    <footer>
+         <div id="contact">
+                <div class="grid-logo">
+                    <img src="logo.png" alt="cineflix logo" class="cineflix-logo">
+                    <p class="cineflix-para">the Ultimate Movie & Series Experience</p>
+                </div>
+                <div class="footer-links">
+                    <div class="about-contact">
+                        <ul>
+                            <li><a href="/about">About us</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div>  
+                    <div class="about-contact">
+                        <ul>
+                            <li><a href="https://www.facebook.com">Facebook</a></li>
+                            <li><a href="https://www.twitter.com">Twitter</a></li>
+                            <li><a href="https://www.instagram.com">Instagram</a></li>
+                        </ul>  
+                    </div>
+                    <div class="about-contact">
+                        <ul>
+                            <li><a href="/terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <div class="footer-copyright">
+            <hr class="footer-line">
+            <p class="footer-para">&copy; 2026 CineFlix. All rights reserved.</p>
+
+        </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
